@@ -1,0 +1,6 @@
+{
+  "name": "Bakri Marine Accounting System",
+  "description": "Professional marine accounting system for boats, managing returns, expenses, and crew share distribution - Bakri.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

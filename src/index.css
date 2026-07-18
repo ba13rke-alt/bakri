@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Cairo", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f0f4f8; /* Very soft light blue/gray */
+  color: #1e293b;
+  direction: rtl;
+}
+
+/* Custom scrollbar for an elegant look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Animations */
+@keyframes wave {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+.wave-animation {
+  animation: wave 3s ease-in-out infinite;
+}
+
+/* -------------------------------------------------------------
+   PRINT MEDIA STYLING FOR PROFESSIONAL PDF EXPORT
+   ------------------------------------------------------------- */
+@media print {
+  body {
+    background-color: white !important;
+    background-image: none !important;
+    color: black !important;
+    font-size: 10pt !important;
+    font-family: "Cairo", "Inter", sans-serif !important;
+    direction: rtl !important;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Ensure the root main_container itself is visible to render children, but stripped of screen styles */
+  #main_container {
+    background-color: white !important;
+    background-image: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    min-height: auto !important;
+    box-shadow: none !important;
+  }
+
+  /* Hide absolutely all interactive screen elements, dashboards, and modals */
+  #toast-notification, 
+  header, 
+  #app-header,
+  #main-content,
+  #nav-control-bar, 
+  #financial-dashboard, 
+  #shares-distribution-chart, 
+  button, 
+  select, 
+  label, 
+  form, 
+  footer,
+  .fixed,
+  [class*="fixed"] {
+    display: none !important;
+  }
+
+  /* Force display of the custom-designed A4 invoice document state */
+  #print-report-sheet {
+    display: block !important;
+    visibility: visible !important;
+    background-color: white !important;
+    padding: 10mm 15mm !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Precise CSS alignments for tables */
+  table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    page-break-inside: auto !important;
+  }
+  
+  tr {
+    page-break-inside: avoid !important;
+    page-break-after: auto !important;
+  }
+}
+

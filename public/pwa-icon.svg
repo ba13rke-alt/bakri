@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Rounded elegant pure white background card for premium high contrast -->
+  <rect width="512" height="512" rx="128" fill="#ffffff" />
+  
+  <!-- Subtle circular radiant background glow -->
+  <circle cx="256" cy="256" r="230" fill="#f8fafc" />
+
+  <g transform="translate(10, 0)">
+    <!-- Terracotta Sail (Majestic Arab Wind-Swept Dhow Sail Background) -->
+    <path d="M 270 50 
+             C 240 100, 165 210, 140 335 
+             C 210 380, 310 340, 360 290 
+             C 325 200, 295 100, 270 50 Z" 
+          fill="#C2633C" />
+
+    <!-- Pure Calligraphy Overlay (Writing "الباحرة" in magnificent Arabic Curves) -->
+    
+    <!-- Left Flourished Lettering (The sweeping curves on the left representing letter "ة" or waves) -->
+    <path d="M 150 240 
+             C 100 245, 60 210, 80 150 
+             C 95 110, 140 120, 160 160 
+             C 180 200, 110 270, 60 240 
+             C 40 220, 30 190, 50 160 
+             C 45 180, 50 220, 80 250 
+             C 110 275, 140 260, 150 240 Z" 
+          fill="#132247" />
+    
+    <!-- Exquisite Arabic Diacritics & Calligraphy Dots on Left -->
+    <circle cx="70" cy="115" r="9" fill="#132247" />
+    <circle cx="95" cy="120" r="9" fill="#132247" />
+    <circle cx="115" cy="140" r="9" fill="#132247" />
+
+    <!-- Center Calligraphy Body ("الباحر" core letters with traditional overlapping sweeps) -->
+    <path d="M 130 210 
+             C 180 170, 280 230, 350 250 
+             C 300 240, 200 180, 130 210 Z" 
+          fill="#132247" />
+    <path d="M 180 180 
+             C 220 120, 280 150, 310 220 
+             C 260 160, 200 140, 180 180 Z" 
+          fill="#132247" />
+
+    <!-- Tall Vertical Letter Mast (Slender beautiful Arabic Alif/Lam styles tracing the sail edge) -->
+    <path d="M 230 110 
+             C 210 80, 190 60, 220 50 
+             C 240 45, 250 70, 240 110 
+             C 230 150, 280 250, 300 280 
+             C 285 240, 240 150, 230 110 Z" 
+          fill="#132247" />
+    <path d="M 270 120 
+             C 260 80, 240 60, 260 50 
+             C 280 40, 290 70, 280 120 
+             C 270 180, 340 260, 370 290 
+             C 340 260, 280 180, 270 120 Z" 
+          fill="#132247" />
+
+    <!-- Right Side Ocean Calligraphy sweeps (Forming wind currents & stylized Arabic arcs) -->
+    <path d="M 330 110 
+             C 360 80, 420 140, 450 180 
+             C 430 160, 380 100, 340 120 Z" 
+          fill="#132247" />
+    <path d="M 360 180 
+             C 390 140, 445 200, 480 250 
+             C 440 220, 390 190, 360 180 Z" 
+          fill="#132247" />
+    <path d="M 345 260 
+             C 380 250, 420 280, 450 295 
+             C 410 280, 375 255, 345 260 Z" 
+          fill="#132247" />
+
+    <!-- Calligraphy Dots on Right supporting letters -->
+    <circle cx="310" cy="275" r="9" fill="#132247" />
+    <circle cx="335" cy="280" r="9" fill="#132247" />
+
+    <!-- Majestic Calligraphy Hull (Sleek deep navy body curvature running along the bottom) -->
+    <path d="M 120 435 
+             C 180 455, 300 455, 410 330 
+             C 420 320, 440 330, 440 340
+             C 420 400, 350 460, 240 460 
+             C 160 460, 130 450, 120 435 Z" 
+          fill="#132247" />
+
+    <!-- Terracotta accent ribbon on the hull matching the sail -->
+    <path d="M 130 440 
+             C 190 450, 290 440, 390 340
+             C 380 355, 290 450, 130 440 Z" 
+          fill="#C2633C" />
+
+    <!-- Deep Navy Portholes inside the Accent Ribbon -->
+    <circle cx="240" cy="435" r="7" fill="#132247" />
+    <circle cx="280" cy="425" r="7" fill="#132247" />
+    <circle cx="320" cy="410" r="7" fill="#132247" />
+    <circle cx="360" cy="390" r="7" fill="#132247" />
+    <circle cx="395" cy="365" r="7" fill="#132247" />
+  </g>
+</svg>
